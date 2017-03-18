@@ -1,0 +1,261 @@
+body{
+    font-family: sans-serif;
+    background-color: #eae7e7;
+    margin: auto 0;
+    margin-bottom: 15px;    
+}
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+}
+
+/* Index */
+.perfil{
+    background-color: #e0d5c6;
+    text-align: center;
+}
+
+.perfil p{
+	font-size: 45px;
+    margin-top: 3px;
+    padding-bottom: 5px;
+}
+
+.perfil img{
+	padding: 15px;
+    width: 300px;
+    height: 300px;
+}
+
+.conteudo{
+    margin-top: -34px;
+}
+
+.informacoes{
+    float: left;
+    background-color: #e0d5c6;
+    width: 260px;
+    padding-left: 40px;
+}
+
+.lista{
+    margin-left: 10px;
+    float: right;
+    background-color: #e0d5c6;
+    width: 690px;
+}
+
+.lista table{
+    width: 690px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.lista table, tr{;
+    border: 1px solid black;
+}
+
+td{
+    height: 50px;
+    vertical-align: middle;
+}
+
+th{
+    background-color: #8e8271;
+    color: white;
+}
+
+tr:nth-child(even){background-color: #eae7e7}
+
+.acoes_perfil ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    border: 2px solid #ffffff;
+}
+
+.acoes_perfil li{
+	text-align: center;
+    border-bottom: 1px solid #ffffff;
+}
+
+.acoes_perfil li:last-child {
+    border-bottom: none;
+}
+
+.acoes_perfil li a{
+    display: block;
+    color: #000;
+    background-color: #e0d5c6;
+    padding: 8px 16px;
+}
+
+.acoes_perfil li a:hover {
+    background-color: #ffffff;
+    color: black;
+}
+
+.acoes_perfil {
+	padding-bottom: 15px;
+}
+
+.edita{
+    background-color: green;
+    color: greenyellow;
+}
+
+.espaco{
+    height: 50px;
+    clear: both;
+}
+/* Fim da index */
+
+/* LInks */
+a{
+    text-decoration: none;
+    color: blue;
+}
+/* Fim links */
+
+/* alinha */
+.alinha{
+    padding: 40px;
+    margin: auto;
+    display: block;
+    width: 1000px;
+}
+/* Fim alinha */
+
+/* edita */
+.edita{
+    padding: 40px;
+    margin: auto;
+    display: block;
+    width: 1000px;
+}
+/* Fim edita */
+
+/* Títulos */
+.titulo{
+    text-align: center;
+}
+/* Fim títulos */
+
+/* Erros */
+.erro{
+    background-color: #f7acac;
+    color: #e60f0f;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    width: 700px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+/* fim erros */
+
+.acerto{
+    background-color: greenyellow;
+    color: green;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    width: 700px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.alerta{
+    width: 980px;
+}
+
+.voltar{
+    background-color: #e0d5c6;
+    color: black;
+    border: 2px solid #ffffff;
+    font-size: 20px;
+    padding: 10px 322.9px;
+    width: 700px;
+    border-radius: 5px;
+}
+
+.excluir{
+    padding: 10px 317px;
+}
+
+.voltar:hover{
+    transition: 0.5s;
+    background-color: #ffffff;    
+}
+
+/* Formulários */
+.formulario{
+    font-size: 25px;
+    width: 700px;
+    margin: auto;
+    display: block;
+    background-color: #e0d5c6;
+    padding: 10px;
+}
+
+.formulario select{
+    margin-top: 10px;
+    padding: 8px;
+    border: none;
+    border-bottom: 1px solid #808080;
+    width: 168px;
+    font-size: 20px;
+    background-color: #e0d5c6;
+    border-radius: 5px;
+}
+
+.formulario select:focus{
+	background-color: white;
+    transition: 0.5s;
+}
+
+.formulario input{
+    margin-top: 10px;
+    padding: 8px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #808080;
+    width: 100%;
+    font-size: 20px;
+    background-color: #e0d5c6;
+    border-radius: 5px;
+}
+
+.formulario input:focus{
+	background-color: white;
+    transition: 0.5s;
+}
+
+.formulario .submit{
+	background-color: #e0d5c6;
+    color: black;
+    border: 2px solid #ffffff;
+}
+
+.formulario .submit:hover{
+    transition: 0.5s;
+    background-color: #ffffff;
+}
+/* Fim formulários */
+
+/* Login */
+
+.login h1 h3{
+    margin: auto 0;
+    text-align: center;
+}
+/* Fim da Login */
+
+.input{
+    width: 340px;
+    display: inline-block;
+}
