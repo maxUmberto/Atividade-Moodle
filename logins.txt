@@ -1,0 +1,7 @@
+Bill Gates - gates - microsoft
+James Gosling - james - jamesjava
+Steve Jobs - iphone - jobsapple
+Linus Torvalds - pinguim - linuslinux
+Elon Musk - tesla - elontesla
+Tim Berners-Lee - internet - internet
+Ramus Lerdorf - elefante - phpinternet
